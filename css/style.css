@@ -1,0 +1,54 @@
+.header__ttl {
+    color: rgb(21, 21, 157);
+    margin: 20px 0px 0px 25px;
+     float: left;
+}
+
+
+
+.header__right {
+    float: right;
+    margin: 20px 25px 0px 0px;
+}
+
+.link-1 {
+    float: left;
+    margin-right: 15px;
+}
+.link-2 {
+    float: left;
+    margin-right: 15px;
+}
+.link-3 {
+    float: left;
+    margin-right: 15px;
+}
+.link-4 {
+    float: left;
+}
+
+.main__img {
+   height: 50%;
+   width: 50%;
+   padding-top: 150px;
+    position: relative;
+    z-index: 10;
+    left: 600px;
+}
+
+
+.main__ttl {
+    position: relative;
+    bottom: 180px;
+    font-size: 60px;
+}
+
+
+.blue-box {
+    background-color: rgb(21, 21, 157);
+    height: 250px;
+    width: 1100px;
+    position: relative;
+    bottom: 180px;
+    z-index: 0;
+}
