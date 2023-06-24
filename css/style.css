@@ -2,9 +2,15 @@
     color: rgb(21, 21, 157);
     margin: 20px 0px 0px 25px;
      float: left;
+     font-size: 25px;
 }
 
-
+a {
+    text-decoration-line: none;
+    color: rgb(21, 21, 157);
+    font-weight: bold;
+    font-size: large;
+}
 
 .header__right {
     float: right;
@@ -27,20 +33,25 @@
     float: left;
 }
 
+main {
+    padding-top: 100px;
+}
+
 .main__img {
    height: 50%;
    width: 50%;
    padding-top: 150px;
     position: relative;
     z-index: 10;
-    left: 600px;
+    left: 730px;
 }
 
 
 .main__ttl {
     position: relative;
     bottom: 180px;
-    font-size: 60px;
+    font-size: 70px;
+    font-weight: 300;
 }
 
 
@@ -51,4 +62,8 @@
     position: relative;
     bottom: 180px;
     z-index: 0;
+}
+
+.wrap {
+    overflow: hidden;
 }
